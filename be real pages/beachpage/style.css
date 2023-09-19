@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(180deg, #C6C9C2 0%, #F27777 20.15%, #C5C8C2 50.33%, #5C5D62 70.23%, #33353C 75%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+
+.wrapper{
+    margin: 10px 65px 133px 65px;
+}
+
+.twrapper{
+    justify-content: center;
+    margin-top: 200px;
+    height: 50px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 30px;
+    color: aliceblue;
+    margin: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu{
+    height: 60px;
+
+    border: 2px solid #000;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#mouseclick{
+    background-color: #000;
+}
+#photo{
+   background-color: #fff;
+}
+#photo h2{
+    color: #000;
+}
+#drag{
+    background-color: #000;
+}
+
+.middle{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 600px;
+}
+
+#p5jscanvas{
+    border: 2px solid #000;
+
+    width: 800px;
+    height: 900px;
+}
+
+#next{
+    width: 220px;
+    height: 70px;
+    background-color: #fff;
+    padding: 15px;
+
+    position: absolute;
+    top: 700px;
+    right: 400px;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+#next img{
+    width: 220px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.bottom{
+    margin-top: 70px;
+}
+
+.textroatae{
+    position: relative;
+    overflow: hidden;
+
+}
+.lineslider {
+    display: flex;
+    animation: slideshow 6s linear infinite;
+}
+
+h8{
+    font-size: 22px;
+    margin-left: 20px;
+    font-weight: 600;
+    background-color: #5C5D62;
+
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    animation: slideshow 8s linear infinite;
+  }
+  
+
+  @keyframes slideshow {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+  }
